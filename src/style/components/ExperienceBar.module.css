@@ -1,0 +1,32 @@
+.experienceBar {
+    display: flex;
+    /* mantem os items alinhados no centro */
+    align-items: center;
+}
+
+.experienceBar span {
+    font-size: 1rem;
+}
+
+/* pega a primeira div e nao continua nas demais */
+.experienceBar > div {
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background: var(--gray-line);
+    /* primeira posicao seria o vertical e a segunda o horizontal */
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.experienceBar > div > div {
+    height: 4px;
+    border-radius: 4px;
+    background: var(--green);
+}
+
+span.currentExperience {
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}

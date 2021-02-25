@@ -1,0 +1,23 @@
+.container{
+    /* captura 100 % do tamanho da tela */
+    height: 100vh; 
+    max-width: 992px;
+    margin: 0 auto;
+    /* primeira posicao vertical segunda horizontal */
+    padding: 2.5rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container section {
+    flex: 1;
+
+
+    display: grid;
+    /* ocupa 50 % cada */
+    grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
+    align-content: center;
+}
