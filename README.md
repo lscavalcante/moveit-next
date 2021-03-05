@@ -24,3 +24,10 @@ Moveit App
     realizando deploy novamente - 
     vercel -> vai gerar um novo link com uma versāo pra QAS
     vercel --prod -> vai realizar o deploy direto pra produçāo
+
+## Future features
+- implementar tema dark
+- responsividade
+- ajustar README.md (tutorial, gifs, images)
+- ver os videos da RS servelees com ReactJs e Next.js
+- exemplo new layout figma https://www.figma.com/file/vRbW1u0CEZuG2zE6bU5qLg/Move.it-2.0/duplicate?node-id=160%3A2761
